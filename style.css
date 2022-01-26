@@ -1,0 +1,70 @@
+*{
+    text-align:center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+header{
+    height:100px;
+    background-color: rgb(39, 32, 32);
+    display:flex;
+    padding:0px 20px;
+    align-items:center;
+    justify-content:space-around;
+    box-shadow:20px 20px 50px rgb(34, 32, 32); 
+}
+header h1{
+    color:white;
+    flex:1;
+    text-align:left;
+}
+
+.gameBoard{
+    margin-top:50px;
+    display:inline-table;
+    width:600px;
+    box-shadow:20px 20px 50px rgb(34, 32, 32); 
+   
+}
+.newGame{
+    flex:1;
+    height:50px;
+   width:200px;
+   background-color: rgb(11, 46, 112);
+   color:white;
+   font-size: 18px;
+   border-radius: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.outcome{
+    height:100px;
+    margin-left:5px;
+    margin-right:5px;
+    width:900px;
+    box-shadow:20px 20px 50px rgb(92, 68, 4); 
+    position:fixed;
+    top:800px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(168, 123, 38);
+    align-items: justify;
+    justify-content: space-around;
+
+    
+}
+.playAgain{
+    
+    height:50px;
+    margin-top: 20px;
+    background-color: rgb(16, 91, 134);
+    color:white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.report{
+    color:white;
+}
