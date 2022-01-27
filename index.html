@@ -18,13 +18,52 @@
   </header>
   
   <main>
-       <div class='gameBoard'>
+    <div class='manu'>
+      <div class='forms'>
 
-       </div>
+      
+          <form class='player1 rad'>
+            Player1
+            <div class='playerLabel'>
+              <input type="radio" id="person1" name="player" value="person1"
+                    checked>
+              <label for="person1">Person</label>
+            </div>
+
+            <div class='playerLabel'>
+              <input type="radio" id="computer1" name="player" value="computer1">
+              <label for="computer1">Computer</label>
+            </div>
+          </form>
+          <form class='player2 rad'>
+            Player2
+            <div class='playerLabel'>
+              <input type="radio" id="person2" name="computer" value="person2"
+                    checked>
+              <label for="person2">Person</label>
+            </div>
+
+            <div class='playerLabel'>
+              <input type="radio" id="computer2" name="computer" value="computer2">
+              <label for="computer2">Computer</label>
+            </div>
+            </form>
+        
+          </div>
+ 
+          <button class='start' onClick='gameBoardTable()'>Start</button>
+          
+
+    </div>
+    <div class='gameBoard'>
+    
+
+    
+    </div>
 <br>
        <div class='outcome'>
-        <h2 class='report'>Who wins?</h2>
-    
+        <h2 class='report'>I'm waiting for winner?</h2>
+        <button onClick ='newGame() 'class='restart'>Restart</button>
        </div>
   </main>
   

@@ -45,26 +45,72 @@ main{
     margin-left:5px;
     margin-right:5px;
     width:900px;
-    box-shadow:20px 20px 50px rgb(92, 68, 4); 
+    box-shadow:20px 20px 50px rgb(2, 42, 30); 
     position:fixed;
     top:800px;
     padding: 5px;
     display: flex;
-    background-color: rgb(168, 123, 38);
+    background-color: rgb(38, 168, 125);
     align-items: justify;
     justify-content: space-around;
 
     
 }
-.playAgain{
-    
-    height:50px;
-    margin-top: 20px;
-    background-color: rgb(16, 91, 134);
-    color:white;
-    border-radius: 5px;
-    padding: 10px 20px;
-}
+
+
 .report{
     color:white;
+    margin-top: 30px;
+}
+.manu{
+    display: none;
+    margin-top:100px;
+}
+
+.forms{
+    display: flex;
+    align-items: justify;
+    justify-content: space-between;
+ 
+     width: 700px;
+}
+
+.rad{
+    text-align: left;
+    align-items: left;
+    margin-left: 0;
+    flex:1;
+   font-size: 22px;
+    margin-left: 100px;
+}
+
+.playerLabel{
+    text-align: justify;
+    align-items: center;
+    
+    
+}
+.start{
+    margin-top: 20px;
+    padding:10px 30px;
+    color:white;
+    background-color:rgb(8, 134, 192);
+    border: 2px outset rgb(181, 181, 187);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.start:hover{
+    background-color:rgb(117, 174, 200);
+}
+.restart{
+   margin: 25px;
+    padding:10px 20px;
+    color:white;
+    background-color:rgb(192, 82, 8);
+    border: 2px outset rgb(190, 190, 190);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.restart:hover{
+    background-color:rgb(192, 82, 8);
 }
