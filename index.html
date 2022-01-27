@@ -12,8 +12,8 @@
 
 <body>
   <header>
-    <h1>Tic Tac Toe</h1>
-    <div><button class='newGame' onClick='newGame()'>New Game</button></div>
+    <h1>Welcome to Tic Tac Toe</h1>
+    <!-- <div><button class='newGame' onClick='newGame()'>New Game</button></div> -->
     
   </header>
   
@@ -21,9 +21,12 @@
     <div class='manu'>
       <div class='forms'>
 
-      
-          <form class='player1 rad'>
+          <div class='playerBox'>
             Player1
+          <form class='player1 rad'>
+            
+            
+            <input type="text" id="player1Name" value="Player1" maxlength="10">
             <div class='playerLabel'>
               <input type="radio" id="person1" name="player" value="person1"
                     checked>
@@ -34,9 +37,20 @@
               <input type="radio" id="computer1" name="player" value="computer1">
               <label for="computer1">Computer</label>
             </div>
+            <br>
+            <div class='markerBox'>
+              <label for="marker1">Marker</label>
+              <input type="text" id="marker1" value="x" maxlength="1">
+            </div>
+            
           </form>
-          <form class='player2 rad'>
+          </div>
+          <div class='playerBox'>
             Player2
+          <form class='player2 rad'>
+            
+            
+            <input type="text" id="player2Name" value="Player2" maxlength="10">
             <div class='playerLabel'>
               <input type="radio" id="person2" name="computer" value="person2"
                     checked>
@@ -47,8 +61,14 @@
               <input type="radio" id="computer2" name="computer" value="computer2">
               <label for="computer2">Computer</label>
             </div>
+            <br>
+            <div class='markerBox'>
+              <label for="marker2">Marker</label>
+              <input type="text" id="marker2" value="o" maxlength="1">      
+            </div>
+            
             </form>
-        
+          </div>
           </div>
  
           <button class='start' onClick='gameBoardTable()'>Start</button>
@@ -60,10 +80,10 @@
 
     
     </div>
-<br>
+      <br>
        <div class='outcome'>
         <h2 class='report'>I'm waiting for winner?</h2>
-        <button onClick ='newGame() 'class='restart'>Restart</button>
+        <div><button class='playAgain' onClick='playAgainFun()'>Play again</button></div>
        </div>
   </main>
   
