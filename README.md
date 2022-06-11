@@ -10,7 +10,7 @@ A game in which two players seek alternate turns to complete a row, a column, or
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/Sanja969/TicTacToe)
+[Live Demo Link](https://sanja969.github.io/TicTacToe/)
 
 
 ## Authors
