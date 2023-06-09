@@ -1,6 +1,6 @@
 # TicTacToe
 
-A game in which two players seek alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares; noughts, and crosses. You can choose to play against the computer against another player. 
+Unleash your strategic prowess and engage in an epic battle of wits with Tic Tac Toe! Will you outsmart the computer or challenge a fellow player to claim victory? Aim for the perfect alignment of X's or O's, but beware, every move counts in this exhilarating grid-based showdown. Join the thrilling quest for tic-tacular dominance now! Play the game at: [Link] 🎮✨ #TicTacToeChallenge #GridConqueror
 
 ## Built With
 
